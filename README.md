@@ -136,3 +136,7 @@ The tool streams the archive into a temporary `.unitypkg_*` folder inside the ou
 | `No module named 'tkinter'` | Install the Tk package for your platform (see [Installation](#2-install-python-with-tkinter)). |
 | The log says some entries were "skipped" | Those GUID entries have no usable `pathname` (none at all, or one that is empty after cleaning), so there's nowhere to put them. A few are normal. |
 | A package fails with an error | The file may be damaged or not really a Unity package. Try downloading it again. Other packages in the same run still extract. |
+
+## License
+
+Released under the [MIT License](LICENSE).
